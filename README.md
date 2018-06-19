@@ -1,8 +1,8 @@
 # Customer Profile - API
-Customer profile dashboard API which is use to serve the data for the Customer Profile Client App.
+Customer profile dashboard API which is use to serve the data for the [Customer Profile Client App](https://github.com/emmafallancy/customer-profile-client).
 
 ## Overview
-This API is use for serving as the backend services for Customer Profile client app. Currently, there is only one service available to be serve. Refer to the list below:
+This API is use for serving as the backend services for [Customer Profile client app](https://github.com/emmafallancy/customer-profile-client). Currently, there is only one service available to be serve. Refer to the list below:
 - Customers
 
 Endpoint handler service(s) can be found in the `modules` folder inside `src` folder.
