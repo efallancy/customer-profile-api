@@ -1,0 +1,43 @@
+{
+  "name": "customer-profile-api",
+  "version": "1.0.0",
+  "description": "Customer Profile API services",
+  "scripts": {
+    "dev": "nodemon src/server.js -e js,json --exec babel-node",
+    "start": "node dist/server.js",
+    "build": "npm run clean && babel src -d dist",
+    "prestart": "npm run build && npm run copy:db",
+    "copy:db": "cp -R src/data dist",
+    "clean": "rimraf dist",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Emmanuel Fallancy <emmanuel.fallancy@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "lodash.omit": "^4.5.0",
+    "rimraf": "^2.6.2",
+    "uuid": "^3.2.1",
+    "validator": "^10.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "jest": "^23.1.0",
+    "nodemon": "^1.17.5",
+    "supertest": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=8.11"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "65a05ff8-63b3-4fd2-a361-c43b305c9963",
+    "name": "Kagawa",
+    "email": "kagawa.cool@jap.com"
+  },
+  {
+    "id": "3bc98315-a7a7-4a09-b6dc-5956a91d3cb3",
+    "name": "David Beckham",
+    "email": "me@davidbeckham.com"
+  },
+  {
+    "id": "81c3e2cf-abf0-4958-bacb-c318caa023bf",
+    "email": "maison.kitsune@gmail.com",
+    "name": "Maison Kitsune"
+  },
+  {
+    "id": "ba7a7121-d0fc-4146-9b42-28d25d2c2f76",
+    "name": "Cherio",
+    "email": "cherio@gmail.com"
+  }
+]
