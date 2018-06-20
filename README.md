@@ -72,6 +72,8 @@ npm start
 
 By default, the server will run at `http://localhost:4200`. If you prefer to run the server in different port, set the `PORT` value in the environment.
 
+**NOTE**: For simplicity, data (to simulate as DB) is available in `customers.json`, which can be found in `src/data` folder.
+
 ## Testing
 The test can be run by the referring to the command below.
 
