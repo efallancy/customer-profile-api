@@ -35,7 +35,7 @@ _Endpoint for updating customer profile based on their UUID, which should contai
 _Endpoint for deleting the customer profile based on their UUID._
 
 ## Installing dependencies
-To run the API, make sure to install the dependencies. To install the dependencies, run the command below:
+To run the API, make sure to install the dependencies. The API requires **Node** version of at least `v8.11.x.`. To install the dependencies, run the command below:
 
 Using `yarn`:
 ```sh
